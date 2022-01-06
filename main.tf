@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "infra-tf01"
+    bucket = "infra-tf02"
     key    = "infra-terraform/"
     region = "us-east-2"
   }
